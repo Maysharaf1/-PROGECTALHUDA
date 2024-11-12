@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+  color: #007bff;
+}
+
+/* Home Section */
+#home {
+  padding: 50px 0;
+  text-align: center;
+  background-image: url(image/خلفية4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content h2 {
+  color: rgb(202, 131, 44);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.home-content p {
+  color:rgba(168, 116, 56, 0.87);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Services Section */
+#services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#services .title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#services .line {
+  width: 60px;
+  height: 3px;
+  background: #333;
+  margin: 10px auto;
+}
+
+#services .desc {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Cards */
+.card-item {
+  margin-top: 20px;
+  float: left;
+  width: 30%;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(109, 105, 105, 0.2);
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card-item:hover {
+  transform: translateY(-5px);
+}
+
+.mg {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card-img {
+  width: 120px; 
+  height: 120px;
+  background-color: rgba(228, 221, 211, 0.906);
+  margin: auto;
+  border-radius: 50%; 
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img {
+  width: 100%; 
+  height: 100%;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.card-title {
+  font-size: 20px;
+  color: #333;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.card-desc {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+/* Contact Section */
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact .title {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+#contact .line {
+  width: 60px;
+  height: 3px;
+  background: #333;
+  margin: 10px auto;
+}
+
+#contact .desc {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+#contact form label {
+  font-size: 18px;
+  color: #333;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#contact form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
